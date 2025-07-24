@@ -7,36 +7,43 @@ A comprehensive guide for developers transitioning from Django to Spring Boot, c
 This migration guide is organized into the following sections:
 
 ### Core Concepts
-- [**01-project-structure.md**](01-project-structure.md) - Project organization and architecture
-- [**02-configuration.md**](02-configuration.md) - Settings, configuration, and environment management
-- [**03-dependency-injection.md**](03-dependency-injection.md) - Django apps vs Spring modules and DI
+
+- [**01-project-structure**](project-structure) - Project organization and architecture
+- [**02-configuration**](configuration) - Settings, configuration, and environment management
+- [**03-dependency-injection**](dependency-injection) - Django apps vs Spring modules and DI
 
 ### Data Layer
-- [**04-models-orm.md**](04-models-orm.md) - Models, ORM, and database operations
-- [**05-database-migrations.md**](05-database-migrations.md) - Database schema management and migrations
+
+- [**04-models-orm**](models-orm) - Models, ORM, and database operations
+- [**05-database-migrations**](database-migrations) - Database schema management and migrations
 
 ### Web Layer
-- [**06-routing-controllers.md**](06-routing-controllers.md) - URL routing, views, and controllers
-- [**07-api-development.md**](07-api-development.md) - REST API development and best practices
-- [**08-serialization.md**](08-serialization.md) - Data serialization and DTOs
+
+- [**06-routing-controllers**](routing-controllers) - URL routing, views, and controllers
+- [**07-api-development**](api-development) - REST API development and best practices
+- [**08-serialization**](serialization) - Data serialization and DTOs
 
 ### Cross-cutting Concerns
-- [**09-middleware-filters.md**](09-middleware-filters.md) - Middleware vs Filters and Interceptors
-- [**10-exception-handling.md**](10-exception-handling.md) - Custom exceptions and error handling
-- [**11-authentication-security.md**](11-authentication-security.md) - Authentication and security
+
+- [**09-middleware-filters**](middleware-filters) - Middleware vs Filters and Interceptors
+- [**10-exception-handling**](exception-handling) - Custom exceptions and error handling
+- [**11-authentication-security**](authentication-security) - Authentication and security
 
 ### Advanced Topics
-- [**12-websockets.md**](12-websockets.md) - Real-time communication with WebSockets
-- [**13-testing.md**](13-testing.md) - Testing strategies and frameworks
-- [**14-deployment.md**](14-deployment.md) - Server configuration and deployment
+
+- [**12-websockets**](websockets) - Real-time communication with WebSockets
+- [**13-testing**](testing) - Testing strategies and frameworks
+- [**14-deployment**](deployment) - Server configuration and deployment
 
 ### Migration Strategy
-- [**15-migration-strategy.md**](15-migration-strategy.md) - Step-by-step migration approach
-- [**16-common-pitfalls.md**](16-common-pitfalls.md) - Common issues and solutions
+
+- [**15-migration-strategy**](migration-strategy) - Step-by-step migration approach
+- [**16-common-pitfalls**](common-pitfalls) - Common issues and solutions
 
 ## 🎯 Target Audience
 
 This guide is designed for developers who:
+
 - Are experienced with Django and Python
 - Want to migrate existing Django projects to Spring Boot
 - Need to understand Spring Boot concepts through Django analogies
@@ -44,14 +51,15 @@ This guide is designed for developers who:
 
 ## 🚀 Getting Started
 
-1. Start with [Project Structure](01-project-structure.md) to understand the fundamental differences
-2. Review [Configuration](02-configuration.md) to set up your Spring Boot environment
+1. Start with [Project Structure](project-structure) to understand the fundamental differences
+2. Review [Configuration](configuration) to set up your Spring Boot environment
 3. Follow the sections in order, or jump to specific topics as needed
-4. Use the [Migration Strategy](15-migration-strategy.md) for a systematic approach
+4. Use the [Migration Strategy](migration-strategy) for a systematic approach
 
 ## 📋 Prerequisites
 
 ### Django Knowledge Expected
+
 - Django project structure and apps
 - Django ORM and models
 - Django REST Framework
@@ -59,6 +67,7 @@ This guide is designed for developers who:
 - Django Channels for WebSockets
 
 ### Java/Spring Boot Requirements
+
 - Basic Java knowledge
 - Understanding of annotations
 - Maven or Gradle build tools
@@ -67,6 +76,7 @@ This guide is designed for developers who:
 ## 🛠 Tools and Technologies Covered
 
 ### Django Stack
+
 - Django 4.x
 - Django REST Framework
 - Django Channels
@@ -74,6 +84,7 @@ This guide is designed for developers who:
 - PostgreSQL/MySQL
 
 ### Spring Boot Stack
+
 - Spring Boot 3.x
 - Spring Data JPA
 - Spring Security
@@ -84,6 +95,7 @@ This guide is designed for developers who:
 ## 📝 Convention Notes
 
 Throughout this guide:
+
 - **Django code** is shown in Python
 - **Spring Boot code** is shown in Java
 - **Similarities** highlight common concepts

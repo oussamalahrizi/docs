@@ -644,16 +644,15 @@ public class ConfigurationValidator implements Validator {
 - Document configuration options clearly
 
 ## Summary
-```Markdown
+
 | Aspect | Django | Spring Boot |
 |--------|--------|-------------|
-| **Main Config** | settings.py | application.yml |
-| **Environment Vars** | os.environ.get() | ${VAR:default} |
+| **Main Config** | `settings.py` | `application.yml` |
+| **Environment Vars** | `os.environ.get()` | `${VAR:default}` |
 | **Environment-specific** | Multiple settings files | Profile-specific YAML |
-| **Validation** | Manual | @ConfigurationProperties validation |
+| **Validation** | Manual | `@ConfigurationProperties` validation |
 | **Type Safety** | Limited | Strong typing with classes |
 | **Auto-completion** | Limited | Full IDE support |
-| **Documentation** | Comments | @ConfigurationProperties metadata |
-```
+| **Documentation** | Comments | `@ConfigurationProperties` metadata |
 
 Spring Boot provides more structured, type-safe configuration management compared to Django's Python-based approach, with better IDE integration and validation capabilities.

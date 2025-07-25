@@ -76,11 +76,6 @@ const config = {
             label: 'java-springboot',
             to: `/docs/java-springboot/chatgpt-ep1`,
             position: 'left',
-          },
-          {
-            label: 'django-vs-springboot',
-            to: `/docs/django-vs-springboot/Intro`,
-            position: 'left',
           }
         ]
       },
